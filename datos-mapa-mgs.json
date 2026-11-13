@@ -1,0 +1,2750 @@
+{
+  "lifepod": [],
+  "abandoned": [],
+  "alchemy": [],
+  "armourer": [],
+  "armourerstable": [],
+  "banditcamp": [],
+  "barber": [],
+  "hansebase": [],
+  "blacksmith": [],
+  "brothel": [],
+  "entrance": [
+    {
+      "coords": [
+        [
+          42.469,
+          20.344
+        ]
+      ],
+      "label": "Torch",
+      "popup": "t:loot.desc.1",
+      "popupTitle": "Torch"
+    },
+    {
+      "coords": [
+        [
+          41.156,
+          26.656
+        ]
+      ],
+      "label": "Field Gloves",
+      "popup": "...",
+      "popupTitle": "Field Gloves"
+    },
+    {
+      "coords": [
+        [
+          43.594,
+          33.531
+        ]
+      ],
+      "label": "Arrow, Bow, Medspray",
+      "popup": "t:loot.desc.3",
+      "popupTitle": "Arrow, Bow, Medspray"
+    },
+    {
+      "coords": [
+        [
+          38.094,
+          34.594
+        ]
+      ],
+      "label": "12g Round, Heavy Arrow, RASP",
+      "popup": "t:loot.desc.4",
+      "popupTitle": "12g Round, Heavy Arrow, RASP"
+    },
+    {
+      "coords": [
+        [
+          31.375,
+          30.75
+        ]
+      ],
+      "label": "Materials",
+      "popup": "t:loot.desc.5",
+      "popupTitle": "Materials"
+    },
+    {
+      "coords": [
+        [
+          21.656,
+          26.938
+        ]
+      ],
+      "label": "Survival Spear",
+      "popup": "t:loot.desc.6",
+      "popupTitle": "Survival Spear"
+    },
+    {
+      "coords": [
+        [
+          51.594,
+          34.563
+        ]
+      ],
+      "label": "BDU Lower",
+      "popup": "t:loot.desc.7",
+      "popupTitle": "BDU Lower"
+    },
+    {
+      "coords": [
+        [
+          57.875,
+          37.563
+        ]
+      ],
+      "label": "Slingshot, Slingshot",
+      "popup": "t:loot.desc.8",
+      "popupTitle": "Slingshot, Slingshot"
+    },
+    {
+      "coords": [
+        [
+          63.688,
+          35.281
+        ]
+      ],
+      "label": "Soviet Field Gloves",
+      "popup": "t:loot.desc.9",
+      "popupTitle": "Soviet Field Gloves"
+    },
+    {
+      "coords": [
+        [
+          72.594,
+          31.469
+        ]
+      ],
+      "label": "Soviet Beret, Soviet Beret",
+      "popup": "t:loot.desc.10",
+      "popupTitle": "Soviet Beret, Soviet Beret"
+    },
+    {
+      "coords": [
+        [
+          73.531,
+          31.406
+        ]
+      ],
+      "label": "BURKOV, Molotov and 9x19mm Rounds",
+      "popup": "t:loot.desc.11",
+      "popupTitle": "BURKOV, Molotov and 9x19mm Rounds"
+    },
+    {
+      "coords": [
+        [
+          82.031,
+          33
+        ]
+      ],
+      "label": "Canteen",
+      "popup": "t:loot.desc.12",
+      "popupTitle": "Canteen"
+    },
+    {
+      "coords": [
+        [
+          80,
+          43.438
+        ]
+      ],
+      "label": "Materials",
+      "popup": "t:loot.desc.13",
+      "popupTitle": "Materials"
+    },
+    {
+      "coords": [
+        [
+          70.688,
+          42.375
+        ]
+      ],
+      "label": "Soviet Combat Pants",
+      "popup": "t:loot.desc.14",
+      "popupTitle": "Soviet Combat Pants"
+    },
+    {
+      "coords": [
+        [
+          64.219,
+          44.719
+        ]
+      ],
+      "label": "Jungle Hat, Harness",
+      "popup": "t:loot.desc.15",
+      "popupTitle": "Jungle Hat, Harness"
+    },
+    {
+      "coords": [
+        [
+          54.969,
+          44.469
+        ]
+      ],
+      "label": "Chemical Light, Flashlight",
+      "popup": "t:loot.desc.16",
+      "popupTitle": "Chemical Light, Flashlight"
+    },
+    {
+      "coords": [
+        [
+          50.531,
+          44.688
+        ]
+      ],
+      "label": "Wooden Barbed Wire Barricade, Crowbar",
+      "popup": "t:loot.desc.17",
+      "popupTitle": "Wooden Barbed Wire Barricade, Crowbar"
+    },
+    {
+      "coords": [
+        [
+          51.25,
+          42.781
+        ]
+      ],
+      "label": "Light Soviet Chest Rig",
+      "popup": "t:loot.desc.18",
+      "popupTitle": "Light Soviet Chest Rig"
+    },
+    {
+      "coords": [
+        [
+          52.438,
+          41.281
+        ]
+      ],
+      "label": "Light Elbow Pads",
+      "popup": "t:loot.desc.19",
+      "popupTitle": "Light Elbow Pads"
+    },
+    {
+      "coords": [
+        [
+          43.969,
+          38.875
+        ]
+      ],
+      "label": "T-Shirt, Tactical BDU Lower",
+      "popup": "t:loot.desc.20",
+      "popupTitle": "T-Shirt, Tactical BDU Lower"
+    },
+    {
+      "coords": [
+        [
+          39.031,
+          38.563
+        ]
+      ],
+      "label": "Small Bottle Holder",
+      "popup": "t:loot.desc.21",
+      "popupTitle": "Small Bottle Holder"
+    },
+    {
+      "coords": [
+        [
+          25.344,
+          36.594
+        ]
+      ],
+      "label": "Small Bottle Holder",
+      "popup": "t:loot.desc.22",
+      "popupTitle": "Small Bottle Holder"
+    },
+    {
+      "coords": [
+        [
+          19.906,
+          36.656
+        ]
+      ],
+      "label": "Balaclava",
+      "popup": "t:loot.desc.23",
+      "popupTitle": "Balaclava"
+    },
+    {
+      "coords": [
+        [
+          12.375,
+          39.531
+        ]
+      ],
+      "label": "Flame Arrow, Small Left Gadget Slot, Portable Shovel",
+      "popup": "t:loot.desc.24",
+      "popupTitle": "Flame Arrow, Small Left Gadget Slot, Portable Shovel"
+    },
+    {
+      "coords": [
+        [
+          22.094,
+          44.563
+        ]
+      ],
+      "label": "Wooden Watchtower",
+      "popup": "t:loot.desc.25",
+      "popupTitle": "Wooden Watchtower"
+    },
+    {
+      "coords": [
+        [
+          19.906,
+          60.344
+        ]
+      ],
+      "label": "Small Heavy Arrow Quiver, Quiver",
+      "popup": "t:loot.desc.26",
+      "popupTitle": "Small Heavy Arrow Quiver, Quiver"
+    },
+    {
+      "coords": [
+        [
+          21.563,
+          71.156
+        ]
+      ],
+      "label": "Decoy",
+      "popup": "t:loot.desc.27",
+      "popupTitle": "Decoy"
+    },
+    {
+      "coords": [
+        [
+          34.594,
+          79.75
+        ]
+      ],
+      "label": "Tactical Scarf",
+      "popup": "t:loot.desc.28",
+      "popupTitle": "Tactical Scarf"
+    },
+    {
+      "coords": [
+        [
+          25.625,
+          88.906
+        ]
+      ],
+      "label": "Battle Axe",
+      "popup": "t:loot.desc.29",
+      "popupTitle": "Battle Axe"
+    },
+    {
+      "coords": [
+        [
+          16.406,
+          95.313
+        ]
+      ],
+      "label": "Goat Cage",
+      "popup": "t:loot.desc.30",
+      "popupTitle": "Goat Cage"
+    },
+    {
+      "coords": [
+        [
+          15.844,
+          100.688
+        ]
+      ],
+      "label": "Sledgehammer",
+      "popup": "t:loot.desc.31",
+      "popupTitle": "Sledgehammer"
+    },
+    {
+      "coords": [
+        [
+          29.031,
+          105.375
+        ]
+      ],
+      "label": "Chest Rig",
+      "popup": "t:loot.desc.32",
+      "popupTitle": "Chest Rig"
+    },
+    {
+      "coords": [
+        [
+          32.563,
+          102.875
+        ]
+      ],
+      "label": "Tactical Vest",
+      "popup": "t:loot.desc.33",
+      "popupTitle": "Tactical Vest"
+    },
+    {
+      "coords": [
+        [
+          37.625,
+          96.813
+        ]
+      ],
+      "label": "Ramp",
+      "popup": "t:loot.desc.34",
+      "popupTitle": "Ramp"
+    },
+    {
+      "coords": [
+        [
+          36.938,
+          104.813
+        ]
+      ],
+      "label": "Tactical Gloves",
+      "popup": "t:loot.desc.35",
+      "popupTitle": "Tactical Gloves"
+    },
+    {
+      "coords": [
+        [
+          32.313,
+          111.188
+        ]
+      ],
+      "label": "Iron Watchtower",
+      "popup": "t:loot.desc.36",
+      "popupTitle": "Iron Watchtower"
+    },
+    {
+      "coords": [
+        [
+          36.313,
+          122.563
+        ]
+      ],
+      "label": "Primary Weapon Holder, Survival Machete",
+      "popup": "t:loot.desc.37",
+      "popupTitle": "Primary Weapon Holder, Survival Machete"
+    },
+    {
+      "coords": [
+        [
+          30.594,
+          120.094
+        ]
+      ],
+      "label": "AM D114 Pistol, .45 Ammo and Strengthen Molotov Cocktail",
+      "popup": "t:loot.desc.38",
+      "popupTitle": "AM D114 Pistol, .45 Ammo and Strengthen Molotov Cocktail"
+    },
+    {
+      "coords": [
+        [
+          30.75,
+          121.531
+        ]
+      ],
+      "label": "Diamond Dogs Gauntlets",
+      "popup": "t:loot.desc.39",
+      "popupTitle": "Diamond Dogs Gauntlets"
+    },
+    {
+      "coords": [
+        [
+          28.844,
+          119.125
+        ]
+      ],
+      "label": "Wooden Barbed Wire Fence, Military Helmet",
+      "popup": "t:loot.desc.40",
+      "popupTitle": "Wooden Barbed Wire Fence, Military Helmet"
+    },
+    {
+      "coords": [
+        [
+          25.75,
+          119.5
+        ]
+      ],
+      "label": "Shrub",
+      "popup": "t:loot.desc.41",
+      "popupTitle": "Shrub"
+    },
+    {
+      "coords": [
+        [
+          42,
+          121.688
+        ]
+      ],
+      "label": "Urban Combat Pants",
+      "popup": "t:loot.desc.42",
+      "popupTitle": "Urban Combat Pants"
+    },
+    {
+      "coords": [
+        [
+          46.188,
+          117.781
+        ]
+      ],
+      "label": "Exploding Drum",
+      "popup": "t:loot.desc.43",
+      "popupTitle": "Exploding Drum"
+    },
+    {
+      "coords": [
+        [
+          42.063,
+          115.063
+        ]
+      ],
+      "label": "Metal Barbed Wire Barricade",
+      "popup": "t:loot.desc.44",
+      "popupTitle": "Metal Barbed Wire Barricade"
+    },
+    {
+      "coords": [
+        [
+          42.281,
+          109.406
+        ]
+      ],
+      "label": "Beret",
+      "popup": "t:loot.desc.45",
+      "popupTitle": "Beret"
+    },
+    {
+      "coords": [
+        [
+          40.469,
+          107.438
+        ]
+      ],
+      "label": "Small Planted Explosives Pouch",
+      "popup": "t:loot.desc.46",
+      "popupTitle": "Small Planted Explosives Pouch"
+    },
+    {
+      "coords": [
+        [
+          47.938,
+          109.125
+        ]
+      ],
+      "label": "Materials",
+      "popup": "t:loot.desc.47",
+      "popupTitle": "Materials"
+    },
+    {
+      "coords": [
+        [
+          51.75,
+          111.563
+        ]
+      ],
+      "label": "Balloon Trap",
+      "popup": "t:loot.desc.48",
+      "popupTitle": "Balloon Trap"
+    },
+    {
+      "coords": [
+        [
+          44.813,
+          102.313
+        ]
+      ],
+      "label": "Soviet Chest Rig",
+      "popup": "t:loot.desc.49",
+      "popupTitle": "Soviet Chest Rig"
+    },
+    {
+      "coords": [
+        [
+          45.625,
+          94.938
+        ]
+      ],
+      "label": "Materials",
+      "popup": "t:loot.desc.50",
+      "popupTitle": "Materials"
+    },
+    {
+      "coords": [
+        [
+          53.406,
+          91.813
+        ]
+      ],
+      "label": "Knee Protector Pants",
+      "popup": "t:loot.desc.51",
+      "popupTitle": "Knee Protector Pants"
+    },
+    {
+      "coords": [
+        [
+          58.344,
+          94.781
+        ]
+      ],
+      "label": "Normal Barricade, Composite Bow",
+      "popup": "t:loot.desc.52",
+      "popupTitle": "Normal Barricade, Composite Bow"
+    },
+    {
+      "coords": [
+        [
+          63.938,
+          100.031
+        ]
+      ],
+      "label": "AM MRS4",
+      "popup": "t:loot.desc.53",
+      "popupTitle": "AM MRS4"
+    },
+    {
+      "coords": [
+        [
+          65.625,
+          99.469
+        ]
+      ],
+      "label": "Bayonet Spear, Grenade",
+      "popup": "t:loot.desc.54",
+      "popupTitle": "Bayonet Spear, Grenade"
+    },
+    {
+      "coords": [
+        [
+          70.781,
+          99.938
+        ]
+      ],
+      "label": "Heavy M Gun Type M, Heat Resistant Tactical Lower",
+      "popup": "t:loot.desc.55",
+      "popupTitle": "Heavy M Gun Type M, Heat Resistant Tactical Lower"
+    },
+    {
+      "coords": [
+        [
+          78.844,
+          95.906
+        ]
+      ],
+      "label": "Plate Vest",
+      "popup": "t:loot.desc.56",
+      "popupTitle": "Plate Vest"
+    },
+    {
+      "coords": [
+        [
+          62.813,
+          112.125
+        ]
+      ],
+      "label": "Cowboy Hat, Heavy Bat",
+      "popup": "t:loot.desc.57",
+      "popupTitle": "Cowboy Hat, Heavy Bat"
+    },
+    {
+      "coords": [
+        [
+          85.438,
+          59.188
+        ]
+      ],
+      "label": "Diamond Dogs Combat Pants, Shock Rod",
+      "popup": "t:loot.desc.58",
+      "popupTitle": "Diamond Dogs Combat Pants, Shock Rod"
+    },
+    {
+      "coords": [
+        [
+          86.625,
+          57.781
+        ]
+      ],
+      "label": "Hunter's Cap, Master Key",
+      "popup": "t:loot.desc.59",
+      "popupTitle": "Hunter's Cap, Master Key"
+    },
+    {
+      "coords": [
+        [
+          89.281,
+          57.656
+        ]
+      ],
+      "label": "Spiked Barricade, Blade Chopper",
+      "popup": "t:loot.desc.60",
+      "popupTitle": "Spiked Barricade, Blade Chopper"
+    },
+    {
+      "coords": [
+        [
+          91.188,
+          49.75
+        ]
+      ],
+      "label": "S1000, Shock Spear",
+      "popup": "t:loot.desc.61",
+      "popupTitle": "S1000, Shock Spear"
+    },
+    {
+      "coords": [
+        [
+          88.25,
+          45.344
+        ]
+      ],
+      "label": "Tactical Sleeve",
+      "popup": "t:loot.desc.62",
+      "popupTitle": "Tactical Sleeve"
+    },
+    {
+      "coords": [
+        [
+          108.938,
+          69.75
+        ]
+      ],
+      "label": "Small Grenade Pouch, Active Decoy",
+      "popup": "t:loot.desc.63",
+      "popupTitle": "Small Grenade Pouch, Active Decoy"
+    },
+    {
+      "coords": [
+        [
+          105.875,
+          74
+        ]
+      ],
+      "label": "Protective Helmet, Combat Machete",
+      "popup": "t:loot.desc.64",
+      "popupTitle": "Protective Helmet, Combat Machete"
+    },
+    {
+      "coords": [
+        [
+          112.125,
+          75.188
+        ]
+      ],
+      "label": "Cold Weather Vest",
+      "popup": "t:loot.desc.65",
+      "popupTitle": "Cold Weather Vest"
+    },
+    {
+      "coords": [
+        [
+          110.75,
+          79.5
+        ]
+      ],
+      "label": "Tactical Hood, Oxygen Supply Unit",
+      "popup": "t:loot.desc.66",
+      "popupTitle": "Tactical Hood, Oxygen Supply Unit"
+    },
+    {
+      "coords": [
+        [
+          117.063,
+          82.75
+        ]
+      ],
+      "label": "Hard Elbow Protector",
+      "popup": "t:loot.desc.67",
+      "popupTitle": "Hard Elbow Protector"
+    },
+    {
+      "coords": [
+        [
+          114.5,
+          95.063
+        ]
+      ],
+      "label": "Military Vest, 9x19 Overpressure Rounds",
+      "popup": "t:loot.desc.68",
+      "popupTitle": "Military Vest, 9x19 Overpressure Rounds"
+    },
+    {
+      "coords": [
+        [
+          121.313,
+          109.438
+        ]
+      ],
+      "label": "WU S3S62B, Secondary Weapon Holder, .44 Magnum Rounds",
+      "popup": "t:loot.desc.69",
+      "popupTitle": "WU S3S62B, Secondary Weapon Holder, .44 Magnum Rounds"
+    },
+    {
+      "coords": [
+        [
+          128.875,
+          98.563
+        ]
+      ],
+      "label": "Rib Cage Vest, Rib Cage Vest",
+      "popup": "t:loot.desc.70",
+      "popupTitle": "Rib Cage Vest, Rib Cage Vest"
+    },
+    {
+      "coords": [
+        [
+          127.25,
+          103.75
+        ]
+      ],
+      "label": "Reinforced Face Mask",
+      "popup": "t:loot.desc.71",
+      "popupTitle": "Reinforced Face Mask"
+    },
+    {
+      "coords": [
+        [
+          126.375,
+          112.688
+        ]
+      ],
+      "label": "Light Protective Helmet",
+      "popup": "t:loot.desc.72",
+      "popupTitle": "Light Protective Helmet"
+    },
+    {
+      "coords": [
+        [
+          133.594,
+          114.313
+        ]
+      ],
+      "label": "LLR Concealment Sleeves, LLR Concealment Sleeves",
+      "popup": "t:loot.desc.73",
+      "popupTitle": "LLR Concealment Sleeves, LLR Concealment Sleeves"
+    },
+    {
+      "coords": [
+        [
+          139.719,
+          124.531
+        ]
+      ],
+      "label": "Recurve Bow, LLR Concealment Upper",
+      "popup": "t:loot.desc.74",
+      "popupTitle": "Recurve Bow, LLR Concealment Upper"
+    },
+    {
+      "coords": [
+        [
+          138.281,
+          124.469
+        ]
+      ],
+      "label": "Small Disc Case, Small Gadget Sling",
+      "popup": "t:loot.desc.75",
+      "popupTitle": "Small Disc Case, Small Gadget Sling"
+    },
+    {
+      "coords": [
+        [
+          138.438,
+          125.875
+        ]
+      ],
+      "label": "Urban Armor Lower, Urban Armor Gauntlets",
+      "popup": "t:loot.desc.76",
+      "popupTitle": "Urban Armor Lower, Urban Armor Gauntlets"
+    },
+    {
+      "coords": [
+        [
+          137.594,
+          125.344
+        ]
+      ],
+      "label": "Ghillie Hood Type 1, Shoulder Hoodie",
+      "popup": "t:loot.desc.77",
+      "popupTitle": "Ghillie Hood Type 1, Shoulder Hoodie"
+    },
+    {
+      "coords": [
+        [
+          150.375,
+          119.125
+        ]
+      ],
+      "label": "C4",
+      "popup": "t:loot.desc.78",
+      "popupTitle": "C4"
+    },
+    {
+      "coords": [
+        [
+          120.438,
+          52
+        ]
+      ],
+      "label": "Flame Bat",
+      "popup": "t:loot.desc.79",
+      "popupTitle": "Flame Bat"
+    },
+    {
+      "coords": [
+        [
+          127.063,
+          55.875
+        ]
+      ],
+      "label": "Plated Ski Mask, Heavy Sledgehammer",
+      "popup": "t:loot.desc.80",
+      "popupTitle": "Plated Ski Mask, Heavy Sledgehammer"
+    },
+    {
+      "coords": [
+        [
+          137.031,
+          59.844
+        ]
+      ],
+      "label": "Urban Armor Upper, Flame Trap",
+      "popup": "t:loot.desc.81",
+      "popupTitle": "Urban Armor Upper, Flame Trap"
+    },
+    {
+      "coords": [
+        [
+          145.875,
+          59.656
+        ]
+      ],
+      "label": "Armor-Piercing Spear, Spiked Bar",
+      "popup": "t:loot.desc.82",
+      "popupTitle": "Armor-Piercing Spear, Spiked Bar"
+    }
+  ],
+  "grindstone": [
+    {
+      "coords": [
+        [
+          114.1,
+          4
+        ]
+      ],
+      "label": "Dual Water Tank",
+      "popup": "Base Camp Dig: Tial",
+      "popupTitle": "Dual Water Tank"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          6
+        ]
+      ],
+      "label": "Maschine Gun Turret",
+      "popup": "Base Camp Dig: Tial",
+      "popupTitle": "Maschine Gun Turret"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          8
+        ]
+      ],
+      "label": "Horse Cage",
+      "popup": "Base Camp Dig: Plan 1",
+      "popupTitle": "Horse Cage"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          10
+        ]
+      ],
+      "label": "Wolf Cage",
+      "popup": "Base Camp Dig: Plan 1",
+      "popupTitle": "Wolf Cage"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          12
+        ]
+      ],
+      "label": "Goat Ranch",
+      "popup": "Base Camp Dig: Plan 1",
+      "popupTitle": "Goat Ranch"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          14
+        ]
+      ],
+      "label": "Horse Ranch",
+      "popup": "Base Camp Dig: Plan 1",
+      "popupTitle": "Horse Ranch"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          16
+        ]
+      ],
+      "label": "Electric Fence",
+      "popup": "Salvage - Daily Hard / Base Camp Dig: Plan 5",
+      "popupTitle": "Electric Fence"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          18
+        ]
+      ],
+      "label": "Large Barbed Wire Barricade",
+      "popup": "Base Camp Dig: Plan 5",
+      "popupTitle": "Large Barbed Wire Barricade"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          20
+        ]
+      ],
+      "label": "Large Spiked Barricade",
+      "popup": "Base Camp Dig: Plan 5",
+      "popupTitle": "Large Spiked Barricade"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          22
+        ]
+      ],
+      "label": "Hydroponic Farm",
+      "popup": "Base Camp Dig: Plan 5",
+      "popupTitle": "Hydroponic Farm"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          24
+        ]
+      ],
+      "label": "Kiln",
+      "popup": "Base Camp Dig: Plan 4",
+      "popupTitle": "Kiln"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          26
+        ]
+      ],
+      "label": "Kitchenette",
+      "popup": "Base Camp Dig: Plan 3",
+      "popupTitle": "Kitchenette"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          28
+        ]
+      ],
+      "label": "Reinforced Iron Watchtower",
+      "popup": "Base Camp Dig: Plan 3",
+      "popupTitle": "Reinforced Iron Watchtower"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          30
+        ]
+      ],
+      "label": "Spiked Pole",
+      "popup": "Base Camp Dig: Plan 4",
+      "popupTitle": "Spiked Pole"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          32
+        ]
+      ],
+      "label": "Heavy Machine Gun Type D",
+      "popup": "Base Camp Dig: Plan 3+",
+      "popupTitle": "Heavy Machine Gun Type D"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          34
+        ]
+      ],
+      "label": "Grenade Turret",
+      "popup": "Base Camp Dig: Plan 3",
+      "popupTitle": "Grenade Turret"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          36
+        ]
+      ],
+      "label": "Gatling Turret",
+      "popup": "Base Camp Dig: Plan 3+",
+      "popupTitle": "Gatling Turret"
+    },
+    {
+      "coords": [
+        [
+          114.1,
+          38
+        ]
+      ],
+      "label": "Air Cannon",
+      "popup": "Base Camp Dig: Plan 3",
+      "popupTitle": "Air Cannon"
+    },
+    {
+      "coords": [
+        [
+          112.1,
+          4
+        ]
+      ],
+      "label": "Shock Trap",
+      "popup": "Base Camp Dig: Plan 4",
+      "popupTitle": "Shock Trap"
+    },
+    {
+      "coords": [
+        [
+          112.1,
+          6
+        ]
+      ],
+      "label": "Oil Trap",
+      "popup": "Base Camp Dig: Plan 3",
+      "popupTitle": "Oil Trap"
+    },
+    {
+      "coords": [
+        [
+          112.1,
+          8
+        ]
+      ],
+      "label": "Spinning Blades",
+      "popup": "Base Camp Dig: Plan 4+",
+      "popupTitle": "Spinning Blades"
+    },
+    {
+      "coords": [
+        [
+          112.1,
+          10
+        ]
+      ],
+      "label": "Frost Trap",
+      "popup": "Base Camp Dig: Plan 4+",
+      "popupTitle": "Frost Trap"
+    },
+    {
+      "coords": [
+        [
+          100,
+          3.5
+        ]
+      ],
+      "label": "Cardboard Fence",
+      "popup": "Salvage - Daily Hard",
+      "popupTitle": "Cardboard Fence"
+    },
+    {
+      "coords": [
+        [
+          100,
+          3.5
+        ]
+      ],
+      "label": "Advanced Weapon Workshop",
+      "popup": "Salvage - Daily Hard",
+      "popupTitle": "Advanced Weapon Workshop"
+    }
+  ],
+  "guarded": [
+    {
+      "coords": [
+        [
+          42.469,
+          20.344
+        ]
+      ],
+      "label": "t:1",
+      "popup": "t:1",
+      "popupTitle": "t:1"
+    },
+    {
+      "coords": [
+        [
+          126.25,
+          55.625
+        ]
+      ],
+      "label": "Lappet-Faced Vulture",
+      "popup": "",
+      "popupTitle": "Lappet-Faced Vulture"
+    },
+    {
+      "coords": [
+        [
+          74.219,
+          104.656
+        ]
+      ],
+      "label": "Afghan Pika",
+      "popup": "",
+      "popupTitle": "Afghan Pika"
+    },
+    {
+      "coords": [
+        [
+          90.906,
+          52.938
+        ]
+      ],
+      "label": "African Wild Dog",
+      "popup": "via Sidemission (Small Animal Detected)",
+      "popupTitle": "African Wild Dog"
+    },
+    {
+      "coords": [
+        [
+          19.219,
+          26.969
+        ]
+      ],
+      "label": "Anubis",
+      "popup": "via Sidemission (Rare Animal Detected)",
+      "popupTitle": "Anubis"
+    },
+    {
+      "coords": [
+        [
+          80.563,
+          74.156
+        ]
+      ],
+      "label": "Black Stork",
+      "popup": "",
+      "popupTitle": "Black Stork"
+    },
+    {
+      "coords": [
+        [
+          93,
+          50.344
+        ]
+      ],
+      "label": "Boer Goat",
+      "popup": "",
+      "popupTitle": "Boer Goat"
+    },
+    {
+      "coords": [
+        [
+          120.25,
+          104.469
+        ]
+      ],
+      "label": "Brown Bear",
+      "popup": "via Sidemission (Large Animal Detected)",
+      "popupTitle": "Brown Bear"
+    },
+    {
+      "coords": [
+        [
+          65.938,
+          110.875
+        ]
+      ],
+      "label": "Cashmere Sheep",
+      "popup": "",
+      "popupTitle": "Cashmere Sheep"
+    },
+    {
+      "coords": [
+        [
+          24.813,
+          29.094
+        ]
+      ],
+      "label": "Common Raven",
+      "popup": "",
+      "popupTitle": "Common Raven"
+    },
+    {
+      "coords": [
+        [
+          122.75,
+          53
+        ]
+      ],
+      "label": "Four-toed Hedgehog ",
+      "popup": "",
+      "popupTitle": "Four-toed Hedgehog "
+    },
+    {
+      "coords": [
+        [
+          145.375,
+          59.125
+        ]
+      ],
+      "label": "Gerbil",
+      "popup": "",
+      "popupTitle": "Gerbil"
+    },
+    {
+      "coords": [
+        [
+          20.906,
+          30.281
+        ]
+      ],
+      "label": "Grant's Zebra",
+      "popup": "via Sidemission (Large Animal Detected)",
+      "popupTitle": "Grant's Zebra"
+    },
+    {
+      "coords": [
+        [
+          63.75,
+          109.719
+        ]
+      ],
+      "label": "Gray Wolf",
+      "popup": "",
+      "popupTitle": "Gray Wolf"
+    },
+    {
+      "coords": [
+        [
+          44.063,
+          44.313
+        ]
+      ],
+      "label": "Griffon Vulture",
+      "popup": "",
+      "popupTitle": "Griffon Vulture"
+    },
+    {
+      "coords": [
+        [
+          123.969,
+          104.781
+        ]
+      ],
+      "label": "Himalayan Brown Bear",
+      "popup": "via Sidemission (Rare Animal Detected)",
+      "popupTitle": "Himalayan Brown Bear"
+    },
+    {
+      "coords": [
+        [
+          93.781,
+          51
+        ]
+      ],
+      "label": "Jehuty",
+      "popup": "via Sidemission (Rare Animal Detected)",
+      "popupTitle": "Jehuty"
+    },
+    {
+      "coords": [
+        [
+          22.281,
+          29.969
+        ]
+      ],
+      "label": "Karakul Sheep ",
+      "popup": "",
+      "popupTitle": "Karakul Sheep "
+    },
+    {
+      "coords": [
+        [
+          74.094,
+          104.344
+        ]
+      ],
+      "label": "Long Eared Hedgehog",
+      "popup": "",
+      "popupTitle": "Long Eared Hedgehog"
+    },
+    {
+      "coords": [
+        [
+          120.906,
+          106.438
+        ]
+      ],
+      "label": "Martial Eagle ",
+      "popup": "",
+      "popupTitle": "Martial Eagle "
+    },
+    {
+      "coords": [
+        [
+          124.656,
+          105.281
+        ]
+      ],
+      "label": "Nubian ",
+      "popup": "",
+      "popupTitle": "Nubian "
+    },
+    {
+      "coords": [
+        [
+          42.313,
+          46.719
+        ]
+      ],
+      "label": "Okapi",
+      "popup": "via Sidemission (Rare Animal Detected)",
+      "popupTitle": "Okapi"
+    },
+    {
+      "coords": [
+        [
+          12.438,
+          87.781
+        ]
+      ],
+      "label": "Oriental Stork",
+      "popup": "",
+      "popupTitle": "Oriental Stork"
+    },
+    {
+      "coords": [
+        [
+          123.844,
+          53.969
+        ]
+      ],
+      "label": "Side Striped Jackal",
+      "popup": "",
+      "popupTitle": "Side Striped Jackal"
+    },
+    {
+      "coords": [
+        [
+          92.625,
+          51.344
+        ]
+      ],
+      "label": "Trumpeter Hornbill",
+      "popup": "",
+      "popupTitle": "Trumpeter Hornbill"
+    },
+    {
+      "coords": [
+        [
+          89.781,
+          50.906
+        ]
+      ],
+      "label": "Wild Ass",
+      "popup": "",
+      "popupTitle": "Wild Ass"
+    }
+  ],
+  "gwent": [
+    {
+      "coords": [
+        [
+          56.625,
+          46.094
+        ]
+      ],
+      "label": "Potatos",
+      "popup": "",
+      "popupTitle": "Potatos"
+    },
+    {
+      "coords": [
+        [
+          29.563,
+          119.875
+        ]
+      ],
+      "label": "Onion",
+      "popup": "",
+      "popupTitle": "Onion"
+    },
+    {
+      "coords": [
+        [
+          58.031,
+          101.031
+        ]
+      ],
+      "label": "Corn",
+      "popup": "",
+      "popupTitle": "Corn"
+    },
+    {
+      "coords": [
+        [
+          140.844,
+          124.969
+        ]
+      ],
+      "label": "Tomato",
+      "popup": "",
+      "popupTitle": "Tomato"
+    }
+  ],
+  "harbor": [
+    {
+      "coords": [
+        [
+          132.875,
+          103.719
+        ]
+      ],
+      "label": "[Contra] Jungle, [Contra III] It's Time For Revenge",
+      "popup": "",
+      "popupTitle": "[Contra] Jungle, [Contra III] It's Time For Revenge"
+    },
+    {
+      "coords": [
+        [
+          114.063,
+          80.438
+        ]
+      ],
+      "label": "[Boktai:The Sun Is In Your Hand] Fog Castle, [Boktai:The Sun Is In Your Hand] Purify, [Boktai:The Sun Is In Your Hand] World of Darkness",
+      "popup": "In a tree. Includes nameplate: Otenko",
+      "popupTitle": "[Boktai:The Sun Is In Your Hand] Fog Castle, [Boktai:The Sun Is In Your Hand] Purify, [Boktai:The Sun Is In Your Hand] World of Darkness"
+    },
+    {
+      "coords": [
+        [
+          28.719,
+          59.75
+        ]
+      ],
+      "label": "[Antarctic Adventure] The Skater's Waltz",
+      "popup": "On the cliff east of the long building. Get on the cliff from the east or build a watchtower.",
+      "popupTitle": "[Antarctic Adventure] The Skater's Waltz"
+    },
+    {
+      "coords": [
+        [
+          35,
+          122.969
+        ]
+      ],
+      "label": "[ANUBIS ZONE OF THE ENDERS] ALOIVIA, [ANUBIS ZONE OF THE ENDERS] Bahram Battleship, [ANUBIS ZONE OF THE ENDERS] Leo!Leo!",
+      "popup": "Main Map, Transporter 09. On the cliffs, Climb up the watchtower.",
+      "popupTitle": "[ANUBIS ZONE OF THE ENDERS] ALOIVIA, [ANUBIS ZONE OF THE ENDERS] Bahram Battleship, [ANUBIS ZONE OF THE ENDERS] Leo!Leo!"
+    },
+    {
+      "coords": [
+        [
+          116.813,
+          90.813
+        ]
+      ],
+      "label": "[BEMANI] Alstroemeria, [BEMANI] SCARLET BLAZE, [BEMANI] Sayonara Heaven",
+      "popup": "FOB Map, Transporter 4. Up on the perimeter cliffs.",
+      "popupTitle": "[BEMANI] Alstroemeria, [BEMANI] SCARLET BLAZE, [BEMANI] Sayonara Heaven"
+    },
+    {
+      "coords": [
+        [
+          32.5,
+          72.438
+        ]
+      ],
+      "label": "[BEMANI] DAIKENKAI, [BEMANI] Theme of DENJIN J, [BEMANI] DOPAMINE, [BEMANI] PF CONCERTO ANTI-ARES",
+      "popup": "On a small ledge on the right cliff.",
+      "popupTitle": "[BEMANI] DAIKENKAI, [BEMANI] Theme of DENJIN J, [BEMANI] DOPAMINE, [BEMANI] PF CONCERTO ANTI-ARES"
+    },
+    {
+      "coords": [
+        [
+          60.875,
+          89.375
+        ]
+      ],
+      "label": "[BEMANI] FLOWER, [BEMANI] Fly Above, [BEMANI] Scars of FAUNA",
+      "popup": "Up on perimeter cliffs.",
+      "popupTitle": "[BEMANI] FLOWER, [BEMANI] Fly Above, [BEMANI] Scars of FAUNA"
+    },
+    {
+      "coords": [
+        [
+          38.5,
+          97.563
+        ]
+      ],
+      "label": "[BEMANI] Chu Chu Tonight, [BEMANI] concon, [BEMANI] EGOISM 440, [BEMANI] Evans",
+      "popup": "Main Map, Transporter 08, broken Tower.",
+      "popupTitle": "[BEMANI] Chu Chu Tonight, [BEMANI] concon, [BEMANI] EGOISM 440, [BEMANI] Evans"
+    },
+    {
+      "coords": [
+        [
+          51.938,
+          95.125
+        ]
+      ],
+      "label": "[Boktai2:Solar Boy Django] Cemetery, [Boktai2:Solar Boy Django] Jormungandr, [Boktai2:Solar Boy Django] Sun Avenue 2",
+      "popup": "Main Map, north of Transporter 8, inside the house with broken walls next to the building with Charon container.",
+      "popupTitle": "[Boktai2:Solar Boy Django] Cemetery, [Boktai2:Solar Boy Django] Jormungandr, [Boktai2:Solar Boy Django] Sun Avenue 2"
+    },
+    {
+      "coords": [
+        [
+          76.406,
+          96.344
+        ]
+      ],
+      "label": "[Castlevania II Simon's Quest] Bloody Tears, [Castlevania II Simon's Quest] The Silence of the Daylight",
+      "popup": "Main Map, near transporter 10. By the arch at the end of the long stone platform.",
+      "popupTitle": "[Castlevania II Simon's Quest] Bloody Tears, [Castlevania II Simon's Quest] The Silence of the Daylight"
+    },
+    {
+      "coords": [
+        [
+          36.625,
+          110.188
+        ]
+      ],
+      "label": "[Castlevania III Dracula's Curse] Aquarius, [Castlevania III Dracula's Curse] Beginning",
+      "popup": "Main Map, East of Transporter 08, near the main road, two houses almost intact. One of the House's wall.",
+      "popupTitle": "[Castlevania III Dracula's Curse] Aquarius, [Castlevania III Dracula's Curse] Beginning"
+    },
+    {
+      "coords": [
+        [
+          139.75,
+          122.781
+        ]
+      ],
+      "label": "[Castlevania] Vampire Killer, [Castlevania] Wicked Child",
+      "popup": "FOB Map, inside Ruins 03. At the balcony.",
+      "popupTitle": "[Castlevania] Vampire Killer, [Castlevania] Wicked Child"
+    },
+    {
+      "coords": [
+        [
+          52.969,
+          112.219
+        ]
+      ],
+      "label": "[Ganbare Goemon! Karakuri Douchuu] Town",
+      "popup": "Visible on the northern cliffs from the watchtower in the base.",
+      "popupTitle": "[Ganbare Goemon! Karakuri Douchuu] Town"
+    },
+    {
+      "coords": [
+        [
+          53.344,
+          44.844
+        ]
+      ],
+      "label": "[GRADIUS II] TABIDACHI, [GRADIUS] Challenger 1985",
+      "popup": "Inside Ruins 01, Basement unlocks Post-Game. This includes nameplate Moai.",
+      "popupTitle": "[GRADIUS II] TABIDACHI, [GRADIUS] Challenger 1985"
+    },
+    {
+      "coords": [
+        [
+          64.25,
+          111.969
+        ]
+      ],
+      "label": "[Lunar Knights] H.Mansion: Forecourt, [Lunar Knights] Laplace, [Lunar Knights] New Culiacan",
+      "popup": "Under the bridge. Includes Nameplate: Nero",
+      "popupTitle": "[Lunar Knights] H.Mansion: Forecourt, [Lunar Knights] Laplace, [Lunar Knights] New Culiacan"
+    },
+    {
+      "coords": [
+        [
+          41.969,
+          103.094
+        ]
+      ],
+      "label": "[Metal Gear] THEME OF TARA, [Metal Gear 2 : Solid Snake] THEME OF SOLID SNAKE",
+      "popup": "Main Map, east of Transporter 08, head to the house, it's inside.",
+      "popupTitle": "[Metal Gear] THEME OF TARA, [Metal Gear 2 : Solid Snake] THEME OF SOLID SNAKE"
+    },
+    {
+      "coords": [
+        [
+          41.469,
+          110.688
+        ]
+      ],
+      "label": "[METAL GEAR 20th ANNIVERSARY METAL GEAR MUSIC COLLECTION] Zanziber Breeze",
+      "popup": "In a tree. nearby two Charon containers.",
+      "popupTitle": "[METAL GEAR 20th ANNIVERSARY METAL GEAR MUSIC COLLECTION] Zanziber Breeze"
+    },
+    {
+      "coords": [
+        [
+          65.063,
+          35.188
+        ]
+      ],
+      "label": "[Metal Gear Solid 2] Arms Depot, [Metal Gear Solid 2] Father and Son, [Metal Gear Solid 2] Memories of Hal",
+      "popup": "On the tip of the crane.",
+      "popupTitle": "[Metal Gear Solid 2] Arms Depot, [Metal Gear Solid 2] Father and Son, [Metal Gear Solid 2] Memories of Hal"
+    },
+    {
+      "coords": [
+        [
+          26.375,
+          116.313
+        ]
+      ],
+      "label": "[Metal Gear Solid 2] Yell Dead Cell",
+      "popup": "On the lower level of the broken strut bridge.",
+      "popupTitle": "[Metal Gear Solid 2] Yell Dead Cell"
+    },
+    {
+      "coords": [
+        [
+          135.313,
+          115.531
+        ]
+      ],
+      "label": "[Metal Gear Solid 3] Surfing Guitar, [Metal Gear Solid 3] Battle In The Base, [Metal Gear Solid 3] Eva's Reminiscence",
+      "popup": "Under the bridge supports.",
+      "popupTitle": "[Metal Gear Solid 3] Surfing Guitar, [Metal Gear Solid 3] Battle In The Base, [Metal Gear Solid 3] Eva's Reminiscence"
+    },
+    {
+      "coords": [
+        [
+          114.625,
+          75.875
+        ]
+      ],
+      "label": "[Metal Gear Solid 3] Jumpin' Johnny, [Metal Gear Solid 3] Pillow Talk, [Metal Gear Solid 3] Sea Breeze, [Metal Gear Solid 3] Snake vs Monkey",
+      "popup": "Fob Map, Transporter 3. Up on the perimeter cliff.",
+      "popupTitle": "[Metal Gear Solid 3] Jumpin' Johnny, [Metal Gear Solid 3] Pillow Talk, [Metal Gear Solid 3] Sea Breeze, [Metal Gear Solid 3] Snake vs Monkey"
+    },
+    {
+      "coords": [
+        [
+          88.438,
+          46.406
+        ]
+      ],
+      "label": "[Metal Gear Solid 3] Snake Eater",
+      "popup": "FOB Map, near the Transporter 2. On a cliff, leftside. Nearby Charon container.",
+      "popupTitle": "[Metal Gear Solid 3] Snake Eater"
+    },
+    {
+      "coords": [
+        [
+          47.781,
+          37.281
+        ]
+      ],
+      "label": "[Metal Gear Solid 4] Love Theme",
+      "popup": "In a tree at the fork in the road.",
+      "popupTitle": "[Metal Gear Solid 4] Love Theme"
+    },
+    {
+      "coords": [
+        [
+          79.906,
+          38.313
+        ]
+      ],
+      "label": "[Metal Gear Solid 4] One More Reboot, [Metal Gear Solid 4] Sin, [Metal Gear Solid 4] Call Me Hal, [Metal Gear Solid 4] Great Escape",
+      "popup": "Main Map, near Transporter 4. Climb on to the big rock up th hill to the left and look on top of the cliffs to the east.",
+      "popupTitle": "[Metal Gear Solid 4] One More Reboot, [Metal Gear Solid 4] Sin, [Metal Gear Solid 4] Call Me Hal, [Metal Gear Solid 4] Great Escape"
+    },
+    {
+      "coords": [
+        [
+          14.625,
+          95.375
+        ]
+      ],
+      "label": "[Metal Gear Solid 4] Infinite Loop, [Metal Gear Solid 4] Everything Ends, [Metal Gear Solid 4] Everything Begins, [Metal Gear Solid 4 MGO] ACTION01, [Metal Gear Solid 4 MGO] LOBBY",
+      "popup": "Main Map, west of Transporter 7, open area, build a tower and aim. (Across the valley to the west. Use the binocular to spot it.)",
+      "popupTitle": "[Metal Gear Solid 4] Infinite Loop, [Metal Gear Solid 4] Everything Ends, [Metal Gear Solid 4] Everything Begins, [Metal Gear Solid 4 MGO] ACTION01, [Metal Gear Solid 4 MGO] LOBBY"
+    },
+    {
+      "coords": [
+        [
+          52.75,
+          42.313
+        ]
+      ],
+      "label": "[Metal Gear Solid Peace Walker] Dead Ahead, [Metal Gear Solid Peace Walker] Entry Gate, [Metal Gear Solid Peace Walker] Mother Base, [Metal Gear Solid Peace Walker] METAL GEAR SOLID PEACE WALKER Main Theme",
+      "popup": "Main Map, Ruins 01, inside the cage. (sidenote: NOT 100% if its Post-Game is required. because early in the game some rooms are blocked)",
+      "popupTitle": "[Metal Gear Solid Peace Walker] Dead Ahead, [Metal Gear Solid Peace Walker] Entry Gate, [Metal Gear Solid Peace Walker] Mother Base, [Metal Gear Solid Peace Walker] METAL GEAR SOLID PEACE WALKER Main Theme"
+    },
+    {
+      "coords": [
+        [
+          30.688,
+          119.5
+        ]
+      ],
+      "label": "[Metal Gear Solid Peace Walker] Koi no Yokushiryoku (Love Deterrence)",
+      "popup": "On top the Ruins 02. Includes Nameplate: Paz.",
+      "popupTitle": "[Metal Gear Solid Peace Walker] Koi no Yokushiryoku (Love Deterrence)"
+    },
+    {
+      "coords": [
+        [
+          40.375,
+          46.656
+        ]
+      ],
+      "label": "[Metal Gear Solid Peace Walker] HEAVENS DIVIDE",
+      "popup": "Main Map, Transporter 2. On the cliff inside the clear area.",
+      "popupTitle": "[Metal Gear Solid Peace Walker] HEAVENS DIVIDE"
+    },
+    {
+      "coords": [
+        [
+          44.156,
+          102.719
+        ]
+      ],
+      "label": "[Metal Gear Solid Peace Walker] Outer Heaven, [Metal Gear Solid Peace Walker] Uninterrupted Signal, [Metal Gear Solid Peace Walker] Zero Allies!",
+      "popup": "Main Map, Transporter 8, northeast. Inside the broken building",
+      "popupTitle": "[Metal Gear Solid Peace Walker] Outer Heaven, [Metal Gear Solid Peace Walker] Uninterrupted Signal, [Metal Gear Solid Peace Walker] Zero Allies!"
+    },
+    {
+      "coords": [
+        [
+          28.125,
+          88.938
+        ]
+      ],
+      "label": "[Metal Gear Solid Portable Ops] Calling To The Night",
+      "popup": "Main Map, Transporter 8, Top pillar",
+      "popupTitle": "[Metal Gear Solid Portable Ops] Calling To The Night"
+    },
+    {
+      "coords": [
+        [
+          48.375,
+          89.5
+        ]
+      ],
+      "label": "[Metal Gear Solid Portable Ops] Opening Title, [Metal Gear Solid Portable Ops] To Arms",
+      "popup": "Main Map, north of Transporter 08. Sitting right by a rock in the middle of the path.",
+      "popupTitle": "[Metal Gear Solid Portable Ops] Opening Title, [Metal Gear Solid Portable Ops] To Arms"
+    },
+    {
+      "coords": [
+        [
+          33,
+          111.125
+        ]
+      ],
+      "label": "[Metal Gear Solid V Ground Zeroes] GROUND ZEROES - Rescue the Intel Agent",
+      "popup": "Main Map, near Transporter 9. hiding inside the stone structure.",
+      "popupTitle": "[Metal Gear Solid V Ground Zeroes] GROUND ZEROES - Rescue the Intel Agent"
+    },
+    {
+      "coords": [
+        [
+          37,
+          39.688
+        ]
+      ],
+      "label": "[Metal Gear Solid V Ground Zeroes] GROUND ZEROES - The Peace Walker Events, [Metal Gear Solid V The Phantom Pain] Quiet's Theme, [Metal Gear Solid V The Phantom Pain] V Has Come To",
+      "popup": "Main Map, Transporter 2, east, at the water cliff.",
+      "popupTitle": "[Metal Gear Solid V Ground Zeroes] GROUND ZEROES - The Peace Walker Events, [Metal Gear Solid V The Phantom Pain] Quiet's Theme, [Metal Gear Solid V The Phantom Pain] V Has Come To"
+    },
+    {
+      "coords": [
+        [
+          139.125,
+          119.406
+        ]
+      ],
+      "label": "[Metal Gear Solid V The Phantom Pain] A Phantom Pain, [Metal Gear Solid V The Phantom Pain] Disarmament, [Metal Gear Solid V The Phantom Pain] Ground Zeroes",
+      "popup": "Visible from the watchtower in the none transporter base (near Ruins 03 / Code Talker's Villa)",
+      "popupTitle": "[Metal Gear Solid V The Phantom Pain] A Phantom Pain, [Metal Gear Solid V The Phantom Pain] Disarmament, [Metal Gear Solid V The Phantom Pain] Ground Zeroes"
+    },
+    {
+      "coords": [
+        [
+          28.625,
+          104.813
+        ]
+      ],
+      "label": "[Metal Gear Solid V The Phantom Pain] Sins of the Father",
+      "popup": "Main Map, Transporter 7, North. On top of the central pillar. SIDENOTE: Interactive map can not pinpoint 100%. due low res. Sorry. :(",
+      "popupTitle": "[Metal Gear Solid V The Phantom Pain] Sins of the Father"
+    },
+    {
+      "coords": [
+        [
+          9.188,
+          86.563
+        ]
+      ],
+      "label": "[Metal Gear Solid V The Phantom Pain] Return, [Metal Gear Solid V The Phantom Pain] Kept You Waiting Huh?",
+      "popup": "Main Map, west of Transporter 7, open area. On a small cliff.",
+      "popupTitle": "[Metal Gear Solid V The Phantom Pain] Return, [Metal Gear Solid V The Phantom Pain] Kept You Waiting Huh?"
+    },
+    {
+      "coords": [
+        [
+          76.844,
+          76
+        ]
+      ],
+      "label": "[Metal Gear Solid] DUEL, [Metal Gear Solid] ENCOUNTER",
+      "popup": "Fob Map, Inside the old Intel Base. Up on a platform. Look up",
+      "popupTitle": "[Metal Gear Solid] DUEL, [Metal Gear Solid] ENCOUNTER"
+    },
+    {
+      "coords": [
+        [
+          46.313,
+          115.906
+        ]
+      ],
+      "label": "[POLICENAUTS] END OF THE DARK, [POLICENAUTS] OPENING TITLE OLD L.A. 2040",
+      "popup": "t:music.desc.C38",
+      "popupTitle": "[POLICENAUTS] END OF THE DARK, [POLICENAUTS] OPENING TITLE OLD L.A. 2040"
+    },
+    {
+      "coords": [
+        [
+          127.25,
+          113.813
+        ]
+      ],
+      "label": "[Shin Bokura no Taiyo: Gyakushu no Sabata] Sabata, [Shin Bokura no Taiyo: Gyakushu no Sabata] The Paradise, [Shin Bokura no Taiyo: Gyakushu no Sabata] Vanargand",
+      "popup": "t:music.desc.C39",
+      "popupTitle": "[Shin Bokura no Taiyo: Gyakushu no Sabata] Sabata, [Shin Bokura no Taiyo: Gyakushu no Sabata] The Paradise, [Shin Bokura no Taiyo: Gyakushu no Sabata] Vanargand"
+    },
+    {
+      "coords": [
+        [
+          120.094,
+          106.781
+        ]
+      ],
+      "label": "[SNATCHER] THEME OF SNATCHER [PART 1]m [SNATCHER] DANGER DANCE... & JUSTICE ALL",
+      "popup": "t:music.desc.C40",
+      "popupTitle": "[SNATCHER] THEME OF SNATCHER [PART 1]m [SNATCHER] DANGER DANCE... & JUSTICE ALL"
+    },
+    {
+      "coords": [
+        [
+          18.563,
+          69.594
+        ]
+      ],
+      "label": "[The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 3 -Menu BGM-, [The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 4 -Menu BGM-, [The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 5 -Menu BGM-",
+      "popup": "t:music.desc.C41",
+      "popupTitle": "[The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 3 -Menu BGM-, [The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 4 -Menu BGM-, [The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 5 -Menu BGM-"
+    },
+    {
+      "coords": [
+        [
+          73.5,
+          92.625
+        ]
+      ],
+      "label": "[The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 6 -Menu BGM-, [The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 7 -Menu BGM-, [The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 8 -Menu BGM-",
+      "popup": "t:music.desc.C42",
+      "popupTitle": "[The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 6 -Menu BGM-, [The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 7 -Menu BGM-, [The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 8 -Menu BGM-"
+    },
+    {
+      "coords": [
+        [
+          122.375,
+          53.531
+        ]
+      ],
+      "label": "[The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 9 -Menu BGM-, [The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 10 -Menu BGM-, [The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN X -Menu BGM-, [The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 2008 -Menu BGM-",
+      "popup": "t:music.desc.C43",
+      "popupTitle": "[The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 9 -Menu BGM-, [The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 10 -Menu BGM-, [The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN X -Menu BGM-, [The History of Winning Eleven OST] WORLD SOCCER WINNING ELEVEN 2008 -Menu BGM-"
+    },
+    {
+      "coords": [
+        [
+          133.094,
+          64.188
+        ]
+      ],
+      "label": "[TwinBee] Fantastic Power, [TwinBee] Twinbee's Home Town Song",
+      "popup": "t:music.desc.C44",
+      "popupTitle": "[TwinBee] Fantastic Power, [TwinBee] Twinbee's Home Town Song"
+    },
+    {
+      "coords": [
+        [
+          27.219,
+          119.875
+        ]
+      ],
+      "label": "[Yie Ar KUNG-FU] BGM",
+      "popup": "t:music.desc.C45",
+      "popupTitle": "[Yie Ar KUNG-FU] BGM"
+    },
+    {
+      "coords": [
+        [
+          151.5,
+          119.688
+        ]
+      ],
+      "label": "[Z.O.E ZONE OF THE ENDERS] City (THE EARTH LIGHT), [Z.O.E ZONE OF THE ENDERS] Factory (Vivid Transparency)",
+      "popup": "t:music.desc.C46",
+      "popupTitle": "[Z.O.E ZONE OF THE ENDERS] City (THE EARTH LIGHT), [Z.O.E ZONE OF THE ENDERS] Factory (Vivid Transparency)"
+    },
+    {
+      "coords": [
+        [
+          41.844,
+          115.156
+        ]
+      ],
+      "label": "[ZONE OF THE ENDERS ReBOOT EDITION] Jehuty - Vivid Transparency (Daigo Kawai Remix)",
+      "popup": "t:music.desc.C47",
+      "popupTitle": "[ZONE OF THE ENDERS ReBOOT EDITION] Jehuty - Vivid Transparency (Daigo Kawai Remix)"
+    },
+    {
+      "coords": [
+        [
+          15.594,
+          88.438
+        ]
+      ],
+      "label": "[POOYAN] BEAR SONG (Arcade)",
+      "popup": "Main Map, west of transporter 07. Sitting on a cliff facing south.",
+      "popupTitle": "[POOYAN] BEAR SONG (Arcade)"
+    },
+    {
+      "coords": [
+        [
+          31.719,
+          101.563
+        ]
+      ],
+      "label": "[QUARTH] The Theme From Quarth",
+      "popup": "Main Map, Transporter 8, south. On top the stone structure, broken gate thing. [thanks suzu ryu]",
+      "popupTitle": "[QUARTH] The Theme From Quarth"
+    }
+  ],
+  "herbalist": [
+    {
+      "coords": [
+        [
+          51.063,
+          33.594
+        ]
+      ],
+      "label": "Color Variation: 1 (Tiger Stripes)",
+      "popup": "",
+      "popupTitle": "Color Variation: 1 (Tiger Stripes)"
+    },
+    {
+      "coords": [
+        [
+          50.719,
+          43.469
+        ]
+      ],
+      "label": "Color Variation: 2 (Desert camo)",
+      "popup": "",
+      "popupTitle": "Color Variation: 2 (Desert camo)"
+    },
+    {
+      "coords": [
+        [
+          60,
+          62
+        ]
+      ],
+      "label": "Color Variation: 3 (Gecko camo?)",
+      "popup": "Location unknown - pls use Google Docs if you have it",
+      "popupTitle": "Color Variation: 3 (Gecko camo?)"
+    },
+    {
+      "coords": [
+        [
+          123.938,
+          109.063
+        ]
+      ],
+      "label": "Color Variation: 4 (Woodland)",
+      "popup": "",
+      "popupTitle": "Color Variation: 4 (Woodland)"
+    },
+    {
+      "coords": [
+        [
+          57.063,
+          38.125
+        ]
+      ],
+      "label": "Color Variation: 5 (Red and Green Colours pile, Flecktarn pattern)",
+      "popup": "",
+      "popupTitle": "Color Variation: 5 (Red and Green Colours pile, Flecktarn pattern)"
+    },
+    {
+      "coords": [
+        [
+          114.938,
+          84.906
+        ]
+      ],
+      "label": "Color Variation: 6 (Swamp Pattern)",
+      "popup": "",
+      "popupTitle": "Color Variation: 6 (Swamp Pattern)"
+    },
+    {
+      "coords": [
+        [
+          79.969,
+          92.563
+        ]
+      ],
+      "label": "Color Variation: 7 (Jungle Pattern)",
+      "popup": "<a href=\"https://imgur.com/uh9jdpP\">Gif</a>",
+      "popupTitle": "Color Variation: 7 (Jungle Pattern)"
+    },
+    {
+      "coords": [
+        [
+          31.75,
+          31.375
+        ]
+      ],
+      "label": "Color Variation: 8 (Splinter forest pattern)",
+      "popup": "",
+      "popupTitle": "Color Variation: 8 (Splinter forest pattern)"
+    },
+    {
+      "coords": [
+        [
+          17,
+          52.688
+        ]
+      ],
+      "label": "Color Variation: 9 (Digital desert pattern)",
+      "popup": "",
+      "popupTitle": "Color Variation: 9 (Digital desert pattern)"
+    },
+    {
+      "coords": [
+        [
+          119.094,
+          102.813
+        ]
+      ],
+      "label": "Color Variation: 10 (Woodland 2)",
+      "popup": "<a href=\"https://imgur.com/gallery/yTD8NDd\">Gif</a>",
+      "popupTitle": "Color Variation: 10 (Woodland 2)"
+    },
+    {
+      "coords": [
+        [
+          60,
+          60
+        ]
+      ],
+      "label": "Color Variation: 11 (Urban Pattern)",
+      "popup": "Location unknown - pls use Google Docs if you have it",
+      "popupTitle": "Color Variation: 11 (Urban Pattern)"
+    },
+    {
+      "coords": [
+        [
+          49.438,
+          44.906
+        ]
+      ],
+      "label": "Color Variation: 12 (Mud)",
+      "popup": "",
+      "popupTitle": "Color Variation: 12 (Mud)"
+    },
+    {
+      "coords": [
+        [
+          44.281,
+          96.625
+        ]
+      ],
+      "label": "Color Variation: 13 (Splinter forest 2 pattern)",
+      "popup": "",
+      "popupTitle": "Color Variation: 13 (Splinter forest 2 pattern)"
+    },
+    {
+      "coords": [
+        [
+          26.75,
+          41.813
+        ]
+      ],
+      "label": "Color Variation: 14 (Dunes)",
+      "popup": "On top of the Bridge. Use a Sandbag to see the Box",
+      "popupTitle": "Color Variation: 14 (Dunes)"
+    },
+    {
+      "coords": [
+        [
+          140.406,
+          127.406
+        ]
+      ],
+      "label": "Color Variation: 15 (Splittermuster)",
+      "popup": "",
+      "popupTitle": "Color Variation: 15 (Splittermuster)"
+    },
+    {
+      "coords": [
+        [
+          53.188,
+          46.219
+        ]
+      ],
+      "label": "Color Variation: 16 (Digital mud pattern)",
+      "popup": "",
+      "popupTitle": "Color Variation: 16 (Digital mud pattern)"
+    },
+    {
+      "coords": [
+        [
+          66.625,
+          11.625
+        ]
+      ],
+      "label": "Color Variation: 17 (Green Tiger Stripes)",
+      "popup": "",
+      "popupTitle": "Color Variation: 17 (Green Tiger Stripes)"
+    },
+    {
+      "coords": [
+        [
+          132.938,
+          117
+        ]
+      ],
+      "label": "Color Variation: 18 (Digital Woodland)",
+      "popup": "<a href=\"https://imgur.com/gallery/NWn3WbH\">Gif</a>",
+      "popupTitle": "Color Variation: 18 (Digital Woodland)"
+    },
+    {
+      "coords": [
+        [
+          109.688,
+          87.844
+        ]
+      ],
+      "label": "Color Variation: 19 (Green Leaf/ The End camo Pattern)",
+      "popup": "",
+      "popupTitle": "Color Variation: 19 (Green Leaf/ The End camo Pattern)"
+    },
+    {
+      "coords": [
+        [
+          26.156,
+          120.813
+        ]
+      ],
+      "label": "Color Variation: 20 (Digital)",
+      "popup": "",
+      "popupTitle": "Color Variation: 20 (Digital)"
+    },
+    {
+      "coords": [
+        [
+          105.781,
+          72.438
+        ]
+      ],
+      "label": "Color Variation: 21 (Splinter Black and Grey)",
+      "popup": "<a href=\"https://imgur.com/gallery/fKaOOFB\">Gif</a>",
+      "popupTitle": "Color Variation: 21 (Splinter Black and Grey)"
+    },
+    {
+      "coords": [
+        [
+          75.125,
+          105.125
+        ]
+      ],
+      "label": "Color Variation: 22 (Red Tiger Stripes)",
+      "popup": "",
+      "popupTitle": "Color Variation: 22 (Red Tiger Stripes)"
+    },
+    {
+      "coords": [
+        [
+          137,
+          115.281
+        ]
+      ],
+      "label": "Color Variation: 23 (Digital Urban)",
+      "popup": "",
+      "popupTitle": "Color Variation: 23 (Digital Urban)"
+    },
+    {
+      "coords": [
+        [
+          139.313,
+          125.375
+        ]
+      ],
+      "label": "Color Variation: 24 (Leopard Pattern)",
+      "popup": "<a href=\"https://imgur.com/gallery/70JpxsL\">Gif</a>",
+      "popupTitle": "Color Variation: 24 (Leopard Pattern)"
+    },
+    {
+      "coords": [
+        [
+          26.313,
+          121.781
+        ]
+      ],
+      "label": "Color Variation: 25 (Snake Pattern)",
+      "popup": "",
+      "popupTitle": "Color Variation: 25 (Snake Pattern)"
+    },
+    {
+      "coords": [
+        [
+          85.5,
+          62
+        ]
+      ],
+      "label": "Color Variation: 26 (Zebra Pattern)",
+      "popup": "",
+      "popupTitle": "Color Variation: 26 (Zebra Pattern)"
+    },
+    {
+      "coords": [
+        [
+          47.469,
+          109.844
+        ]
+      ],
+      "label": "Color Variation: 27 (Brown military)",
+      "popup": "",
+      "popupTitle": "Color Variation: 27 (Brown military)"
+    },
+    {
+      "coords": [
+        [
+          24.625,
+          78.063
+        ]
+      ],
+      "label": "Color Variation: 28 (Urban Military)",
+      "popup": "",
+      "popupTitle": "Color Variation: 28 (Urban Military)"
+    },
+    {
+      "coords": [
+        [
+          24.313,
+          36.969
+        ]
+      ],
+      "label": "Color Variation: 29 (New Soviet Pattern)",
+      "popup": "",
+      "popupTitle": "Color Variation: 29 (New Soviet Pattern)"
+    },
+    {
+      "coords": [
+        [
+          112.281,
+          92.906
+        ]
+      ],
+      "label": "Color Variation: 30 (New Soviet Pattern, Light green)",
+      "popup": "",
+      "popupTitle": "Color Variation: 30 (New Soviet Pattern, Light green)"
+    },
+    {
+      "coords": [
+        [
+          70.25,
+          20.375
+        ]
+      ],
+      "label": "Color Variation: 31 (Dark digital Snake)",
+      "popup": "",
+      "popupTitle": "Color Variation: 31 (Dark digital Snake)"
+    },
+    {
+      "coords": [
+        [
+          125.375,
+          96.875
+        ]
+      ],
+      "label": "Color Variation: 32 (Woodland3)",
+      "popup": "",
+      "popupTitle": "Color Variation: 32 (Woodland3)"
+    },
+    {
+      "coords": [
+        [
+          36.875,
+          35.375
+        ]
+      ],
+      "label": "Color Variation: 33 (Digital US Navy)",
+      "popup": "Main Map, South of Transporter 02. At the Jeep, aim at the Watchtower.",
+      "popupTitle": "Color Variation: 33 (Digital US Navy)"
+    }
+  ],
+  "hidden": [
+    {
+      "coords": [
+        [
+          26.125,
+          122.75
+        ]
+      ],
+      "label": "Crawler",
+      "popup": "",
+      "popupTitle": "Crawler"
+    },
+    {
+      "coords": [
+        [
+          52.156,
+          45.031
+        ]
+      ],
+      "label": "Bomber",
+      "popup": "Inside the Ruines. Same Box as Moai.",
+      "popupTitle": "Bomber"
+    },
+    {
+      "coords": [
+        [
+          53.344,
+          44.844
+        ]
+      ],
+      "label": "Moai",
+      "popup": "Inside the Ruines. Same Box Gradius",
+      "popupTitle": "Moai"
+    },
+    {
+      "coords": [
+        [
+          44.719,
+          14.406
+        ]
+      ],
+      "label": "Wanderer",
+      "popup": "",
+      "popupTitle": "Wanderer"
+    },
+    {
+      "coords": [
+        [
+          41.531,
+          20.125
+        ]
+      ],
+      "label": "Praying Mantis",
+      "popup": "",
+      "popupTitle": "Praying Mantis"
+    },
+    {
+      "coords": [
+        [
+          16.969,
+          94.844
+        ]
+      ],
+      "label": "Watcher",
+      "popup": "",
+      "popupTitle": "Watcher"
+    },
+    {
+      "coords": [
+        [
+          30.688,
+          119.5
+        ]
+      ],
+      "label": "Paz",
+      "popup": "",
+      "popupTitle": "Paz"
+    },
+    {
+      "coords": [
+        [
+          65.656,
+          108.625
+        ]
+      ],
+      "label": "Werewolf",
+      "popup": "",
+      "popupTitle": "Werewolf"
+    },
+    {
+      "coords": [
+        [
+          35,
+          122.969
+        ]
+      ],
+      "label": "Martian",
+      "popup": "",
+      "popupTitle": "Martian"
+    },
+    {
+      "coords": [
+        [
+          89.344,
+          55.719
+        ]
+      ],
+      "label": "Grabber",
+      "popup": "",
+      "popupTitle": "Grabber"
+    },
+    {
+      "coords": [
+        [
+          96.594,
+          51.438
+        ]
+      ],
+      "label": "Tracker",
+      "popup": "",
+      "popupTitle": "Tracker"
+    },
+    {
+      "coords": [
+        [
+          107.344,
+          64.281
+        ]
+      ],
+      "label": "Mortar",
+      "popup": "",
+      "popupTitle": "Mortar"
+    },
+    {
+      "coords": [
+        [
+          119.906,
+          49.625
+        ]
+      ],
+      "label": "Rogue Coyote",
+      "popup": "",
+      "popupTitle": "Rogue Coyote"
+    },
+    {
+      "coords": [
+        [
+          126.438,
+          56.469
+        ]
+      ],
+      "label": "Pieuvre Armament",
+      "popup": "",
+      "popupTitle": "Pieuvre Armament"
+    },
+    {
+      "coords": [
+        [
+          130.094,
+          100.438
+        ]
+      ],
+      "label": "CFA",
+      "popup": "1.04 patch fixed the empty Crystalbox.",
+      "popupTitle": "CFA"
+    },
+    {
+      "coords": [
+        [
+          64.25,
+          111.969
+        ]
+      ],
+      "label": "Nero",
+      "popup": "Under the bridge.",
+      "popupTitle": "Nero"
+    },
+    {
+      "coords": [
+        [
+          139.75,
+          122.781
+        ]
+      ],
+      "label": "Zero Risk Security",
+      "popup": "At the Ruins 03 (Code Talker Villa). Top Balcony, Entrance blocked. Destroy it.",
+      "popupTitle": "Zero Risk Security"
+    },
+    {
+      "coords": [
+        [
+          114.031,
+          80.375
+        ]
+      ],
+      "label": "Otenko",
+      "popup": "In a tree.",
+      "popupTitle": "Otenko"
+    },
+    {
+      "coords": [
+        [
+          125.844,
+          110.75
+        ]
+      ],
+      "label": "Raven Sword",
+      "popup": "FOB Map, Transporter 8, climb up the rock, near the waterfall.",
+      "popupTitle": "Raven Sword"
+    }
+  ],
+  "innkeep": [
+    {
+      "coords": [
+        [
+          28.656,
+          123.531
+        ]
+      ],
+      "label": "Shoot",
+      "popup": "t:geste.desc.G01",
+      "popupTitle": "Shoot"
+    },
+    {
+      "coords": [
+        [
+          80.531,
+          42.688
+        ]
+      ],
+      "label": "Excuse me",
+      "popup": "t:geste.desc.G02",
+      "popupTitle": "Excuse me"
+    },
+    {
+      "coords": [
+        [
+          23.25,
+          38.813
+        ]
+      ],
+      "label": "TODO",
+      "popup": "t:geste.desc.G03",
+      "popupTitle": "TODO"
+    },
+    {
+      "coords": [
+        [
+          15.5,
+          88.469
+        ]
+      ],
+      "label": "TODO",
+      "popup": "t:geste.desc.G04",
+      "popupTitle": "TODO"
+    },
+    {
+      "coords": [
+        [
+          48.531,
+          103.656
+        ]
+      ],
+      "label": "Hey Ho",
+      "popup": "t:geste.desc.G05",
+      "popupTitle": "Hey Ho"
+    },
+    {
+      "coords": [
+        [
+          127.375,
+          112.219
+        ]
+      ],
+      "label": "TODO",
+      "popup": "t:geste.desc.G06",
+      "popupTitle": "TODO"
+    },
+    {
+      "coords": [
+        [
+          145.813,
+          115.531
+        ]
+      ],
+      "label": "WooHoo",
+      "popup": "t:geste.desc.G07",
+      "popupTitle": "WooHoo"
+    }
+  ],
+  "kid": [],
+  "monsterden": [],
+  "monsternest": [
+    {
+      "coords": [
+        [
+          16.75,
+          44.25
+        ]
+      ],
+      "label": "BIG MOUTH",
+      "popup": "Here after you completed the Single player. Sleep a few times if no red circle spawns here, wait some more?",
+      "popupTitle": "BIG MOUTH"
+    },
+    {
+      "coords": [
+        [
+          141.781,
+          61.125
+        ]
+      ],
+      "label": "Frostbite",
+      "popup": "Here after you killed the fist Boss. Sleep a few times if no red circle spawns here, wait some more?",
+      "popupTitle": "Frostbite"
+    }
+  ],
+  "notice": [],
+  "pid": [],
+  "pop": [],
+  "poi": [],
+  "shopkeeper": [],
+  "signalfire": [],
+  "signpost": [],
+  "smugglers": [],
+  "sidequests": [],
+  "contracts": [],
+  "vineyardinfestation": [],
+  "spoils": []
+}

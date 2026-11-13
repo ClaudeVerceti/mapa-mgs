@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mi mapa - Metal Gear Survive</title>
+
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<style>
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #222;
+  font-family: Arial, sans-serif;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.panel {
+  position: absolute;
+  z-index: 1000;
+  top: 12px;
+  left: 60px;
+  padding: 12px 16px;
+  background: #222e;
+  color: white;
+  border-radius: 8px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="panel">
+  <strong>Metal Gear Survive</strong>
+  <hr>
+  <div id="filtros-categorias"></div>
+</div>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+const map = L.map("map", {
+  crs: L.CRS.Simple,
+  minZoom: 2,
+  maxZoom: 5,
+  zoomControl: true,
+  attributionControl: false
+});
+
+const capa = L.tileLayer(
+  "https://metal-gear-survive-map.wiiare.in/files/maps/toussaint/{z}/{x}/{y}.png",
+  {
+    tms: false,
+    noWrap: true,
+    tileSize: 256,
+    minZoom: 2,
+    maxZoom: 5
+  }
+);
+
+capa.getTileUrl = function(coords) {
+  return L.Util.template(this._url, {
+    z: coords.z,
+    x: coords.x,
+    y: -coords.y - 1
+  });
+};
+
+capa.addTo(map);
+
+
+fetch("./datos-mapa-mgs.json")
+  .then(respuesta => respuesta.json())
+  .then(datos => {
+
+    window.datosMapa = datos;
+
+    window.categoriasMGS = {
+      contenedores: datos.entrance,
+      desbloqueos: datos.grindstone,
+
+      animalesFijos: datos.guarded.filter(
+        a => !a.popup.includes("via Sidemission") && a.label !== "t:1"
+      ),
+
+      animalesMisiones: datos.guarded.filter(
+        a => a.popup.includes("via Sidemission")
+      ),
+
+      puntosInteres: datos.gwent,
+      cintasMusica: datos.harbor,
+      camuflajes: datos.herbalist,
+      placas: datos.hidden,
+      gestos: datos.innkeep,
+      jefes: datos.monsternest
+    };
+
+        window.nombresCategoriasMGS = {
+      contenedores: "Contenedores",
+      desbloqueos: "Desbloqueos",
+      animalesFijos: "Animales fijos",
+      animalesMisiones: "Animales de misiones secundarias",
+      puntosInteres: "Puntos de interés",
+      cintasMusica: "Cintas de música",
+      camuflajes: "Variaciones de camuflaje",
+      placas: "Placas de identificación",
+      gestos: "Gestos",
+      jefes: "Jefes"
+    };
+
+    window.coloresMGS = {
+      contenedores: "#e67e22",
+      desbloqueos: "#f1c40f",
+      animalesFijos: "#2ecc71",
+      animalesMisiones: "#16a085",
+      puntosInteres: "#3498db",
+      cintasMusica: "#9b59b6",
+      camuflajes: "#e84393",
+      placas: "#8e44ad",
+      gestos: "#1abc9c",
+      jefes: "#e74c3c"
+    };
+
+    window.simbolosMGS = {
+  contenedores: "▣",
+  desbloqueos: "★",
+  animalesFijos: "♟",
+  animalesMisiones: "◆",
+  puntosInteres: "⚑",
+  cintasMusica: "♫",
+  camuflajes: "◈",
+  placas: "▤",
+  gestos: "☺",
+  jefes: "☠"
+};
+
+     window.capasMGS = {};
+
+Object.keys(window.categoriasMGS).forEach(categoria => {
+  window.capasMGS[categoria] = L.layerGroup().addTo(map);
+});
+
+    const panelFiltros = document.getElementById("filtros-categorias");
+
+    panelFiltros.innerHTML = Object.entries(window.nombresCategoriasMGS)
+      .map(([categoria, nombre]) => `
+        <label style="display:block; margin:6px 0; font-size:13px;">
+          <input type="checkbox" value="${categoria}" checked>
+          <span style="
+  display:inline-block;
+  width:20px;
+  text-align:center;
+  color:${window.coloresMGS[categoria]};
+  font-weight:bold;
+  font-size:16px;
+  margin:0 5px;
+">${window.simbolosMGS[categoria]}</span>
+          ${nombre} <span id="contador-${categoria}">0/${window.categoriasMGS[categoria].length}</span>
+        </label>
+      `).join("");
+          document.querySelectorAll("#filtros-categorias input").forEach(casilla => {
+      const categoria = casilla.value;
+      const capa = window.capasMGS[categoria];
+
+      casilla.addEventListener("change", () => {
+        if (casilla.checked) {
+          capa.addTo(map);
+        } else {
+          map.removeLayer(capa);
+        }
+      });
+    });
+        window.objetosRecogidos = new Set(
+      JSON.parse(localStorage.getItem("mgs-objetos-recogidos") || "[]")
+    );
+
+    window.guardarProgresoMGS = function() {
+      localStorage.setItem(
+        "mgs-objetos-recogidos",
+        JSON.stringify([...window.objetosRecogidos])
+      );
+    };
+    window.actualizarContadoresMGS = function() {
+  Object.entries(window.categoriasMGS).forEach(([categoria, objetos]) => {
+    const total = objetos.length;
+    const recogidos = objetos.filter((objeto, indice) =>
+      window.objetosRecogidos.has(`${categoria}-${indice}`)
+    ).length;
+
+    const contador = document.getElementById(`contador-${categoria}`);
+if (contador) contador.textContent = `${recogidos}/${total}`;
+  });
+};
+window.actualizarContadoresMGS();
+        window.crearIcono = function(color, simbolo, recogido = false) {
+      return L.divIcon({
+        className: "",
+        html: `<div style="
+  width:18px;
+height:18px;
+  background:${color};
+  opacity:${recogido ? 0.25 : 1};
+  border:2px solid white;
+  border-radius:6px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  font-size:13px;
+  font-weight:bold;
+  text-shadow:0 1px 2px black;
+">${simbolo}</div>`,
+        iconSize: [28, 28],
+iconAnchor: [14, 14]
+      });
+    };
+
+    window.obtenerDescripcion = function(objeto) {
+      const descripcion = objeto.popup || "";
+
+      if (!descripcion) {
+        return "Sin descripción disponible.";
+      }
+
+      if (descripcion.startsWith("t:")) {
+        return "Descripción pendiente de traducción.";
+      }
+
+      return descripcion;
+    };
+
+    window.crearFichaMGS = function(objeto, categoria, idObjeto) {
+  const nombre = objeto.popupTitle || objeto.label || "Objeto";
+  const nombreCategoria = window.nombresCategoriasMGS[categoria];
+  const descripcion = window.obtenerDescripcion(objeto);
+  const recogido = window.objetosRecogidos.has(idObjeto);
+
+  return `
+    <div style="min-width:180px; max-width:260px;">
+      <strong style="font-size:15px;">${nombre}</strong>
+      <hr>
+      <div style="color:#3498db; font-size:12px;">
+        ${nombreCategoria}
+      </div>
+      <p style="font-size:13px; margin-bottom:10px;">
+        ${descripcion}
+      </p>
+      <label>
+        <input type="checkbox"
+          class="marcar-recogido"
+          data-id="${idObjeto}"
+          ${recogido ? "checked" : ""}>
+        Objeto recogido
+      </label>
+    </div>
+  `;
+};
+    
+
+    Object.entries(window.categoriasMGS).forEach(([categoria, objetos]) => {
+      objetos.forEach((objeto, indice) => {
+        (objeto.coords || []).forEach(coord => {
+          const idObjeto = `${categoria}-${indice}`;
+
+const marcador = L.marker(coord, {
+  icon: window.crearIcono(
+  window.coloresMGS[categoria],
+  window.simbolosMGS[categoria],
+  window.objetosRecogidos.has(idObjeto)
+)
+});
+
+marcador.objetoId = idObjeto;
+
+marcador
+  .bindPopup(window.crearFichaMGS(objeto, categoria, idObjeto))
+  .addTo(window.capasMGS[categoria]);
+        });
+      });
+    });
+
+            map.on("popupopen", function(evento) {
+      const ficha = evento.popup.getElement();
+      const casilla = ficha.querySelector(".marcar-recogido");
+
+      if (!casilla) return;
+
+      const idObjeto = casilla.dataset.id;
+
+      casilla.checked = window.objetosRecogidos.has(idObjeto);
+
+      casilla.onchange = function() {
+        if (casilla.checked) {
+          window.objetosRecogidos.add(idObjeto);
+        } else {
+          window.objetosRecogidos.delete(idObjeto);
+        }
+
+evento.popup._source.setIcon(
+  window.crearIcono(
+  window.coloresMGS[idObjeto.split("-")[0]],
+  window.simbolosMGS[idObjeto.split("-")[0]],
+  casilla.checked
+)
+);
+        window.guardarProgresoMGS();
+        window.actualizarContadoresMGS();
+      };
+    });
+  });
+
+
+map.setView([64, 58], 3);
+</script>
+
+</body>
+</html>
