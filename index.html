@@ -33,15 +33,54 @@ html, body {
   color: white;
   border-radius: 8px;
 }
+
+#alternar-panel {
+  width: 100%;
+  padding: 5px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .panel.cerrado #contenido-panel {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .panel.cerrado {
+    max-height: 40px;
+    overflow: hidden;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .panel {
+    left: 10px;
+right: auto;
+width: 230px;
+    top: 10px;
+    max-height: 45vh;
+    overflow-y: auto;
+  }
+}
 </style>
 </head>
 
 <body>
 
 <div class="panel">
-  <strong>Metal Gear Survive</strong>
+  <button id="alternar-panel">Metal Gear Survive ▼</button>
+  <div id="contenido-panel">
   <hr>
   <div id="filtros-categorias"></div>
+</div>
 </div>
 
 <div id="map"></div>
@@ -321,6 +360,18 @@ evento.popup._source.setIcon(
 
 
 map.setView([64, 58], 3);
+const panelMapa = document.querySelector(".panel");
+const botonPanel = document.getElementById("alternar-panel");
+
+botonPanel.addEventListener("click", function() {
+  panelMapa.classList.toggle("cerrado");
+
+  console.log("Estado del panel:", panelMapa.className);
+
+  botonPanel.textContent = panelMapa.classList.contains("cerrado")
+    ? "Metal Gear Survive ▼"
+    : "Metal Gear Survive ▲";
+});
 </script>
 
 </body>
